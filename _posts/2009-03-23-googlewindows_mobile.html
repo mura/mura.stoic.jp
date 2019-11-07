@@ -1,0 +1,25 @@
+---
+layout: single
+title: GoogleとWindows Mobileの連携
+date: 2009-03-23 23:07:54.000000000 +09:00
+type: post
+tags:
+- Windows Mobile
+- X01HT
+permalink: "/2009/03/googlewindows_mobile/"
+---
+<p>X01HT付属のOutlookは1個のOSにしか入れられないから、デュアルブートしてるととっても不便。<br />
+フリーで連携できるツールないかなーと思っていてたら、Googleカレンダーでと連携できる方法を発見。<br />
+<a href="http://d.hatena.ne.jp/z_vex/20090228/1235779187">連絡先を統合 - あっち行ったり、こっち来たり</a><br />
+設定方法は<br />
+<a href="http://www.google.com/support/mobile/bin/answer.py?answer=138636&amp;topic=14299">Sync: Set Up Your Windows Mobile Phone</a><br />
+に書いてあるんやけど、このまま設定すると「アカウント情報を見つけられません」というエラーがでる。<br />
+Googleのヘルプサイトをあさっていたら、アカウント情報は以下のようにするとうまくいくとのこと。<br />
+ユーザー名：Googleのアカウント<br />
+パスワード：Googleのパスワード<br />
+ドメイン：gmail.com<br />
+<a href="http://www.google.com/support/forum/p/Google+Mobile/thread?tid=7abee8aefea2d5e9&amp;hl=en">Error 85002009 from ActiveSync 4.5.0</a><br />
+<a href="{{ site.baseurl }}/assets/images/2009/03/google_exchange.png"><img src="{{ site.baseurl }}/assets/images/2009/03/google_exchange.png" alt="" title="google_exchange" width="340" height="331" class="alignnone size-full wp-image-265" /></a><br />
+↑設定済みの画面だけど、PCのActiveSyncからも設定できる。（「ツール」→「サーバー ソースの構成」）<br />
+この状態でPCと接続を切ると、Windows Mobile上のActiveSyncが立ち上がりっぱなしになり、ネットにつなげようとする。<br />
+どう考えても電池の無駄ななので、ActiveSyncのメニューからスケジュールを選び、同期の間隔を「手動で更新」にするのがおすすめ。</p>

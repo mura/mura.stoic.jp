@@ -1,0 +1,70 @@
+---
+layout: single
+title: Movable Type 4.26
+date: 2009-06-17 01:35:12.000000000 +09:00
+type: post
+tags: []
+permalink: "/2009/06/movable_type_426/"
+---
+<p>Movable Type 4.26にアップデート。<br />
+→ <a href="http://www.sixapart.jp/movabletype/news/09/06/11-146.html">Movable Type 4.26 の出荷を開始します</a><br />
+そんでもって、twitter のブログパーツを横の方に移動してCSSを変更<br />
+→ <a href="http://d.hatena.ne.jp/MOOK/20090306/1236361047">TwitterブログパーツのCSSかいてみました - mooklog</a><br />
+CSSをそのまま貼り付けてみたら見事に崩れたので、<a href="http://getfirebug.com/">Firebug</a>使いながら修正。Firebugいいよ、Firebug。</p>
+<p><!--more--><br />
+せっかくなんで、この間いれたSyntaxHighlighterをつかってさらしてみます。<br />
+[css]<br />
+#twitter_div {<br />
+   margin:10px auto;<br />
+   padding-bottom:90px;<br />
+   width:240px;<br />
+   height:auto;<br />
+   font-size:12px;<br />
+   color:#333;<br />
+   background:url(<$MTStaticWebPath$>images/twitter/bg.gif) no-repeat bottom;<br />
+}<br />
+#twitter_div h2 {<br />
+   margin: 0px;<br />
+   padding:0;<br />
+   border-bottom: none;<br />
+   position:relative;<br />
+   width:240px;<br />
+   height:40px;<br />
+}<br />
+#twitter_div h2 span {<br />
+   display:block;<br />
+   position:absolute;<br />
+   top:0;<br />
+   left:0;<br />
+   background:url(<$MTStaticWebPath$>images/twitter/title.gif) no-repeat;<br />
+   width:100%;<br />
+   height:100%;<br />
+}<br />
+ul#twitter_update_list {<br />
+   margin:0;<br />
+   padding:0;<br />
+}<br />
+ul#twitter_update_list li {<br />
+   list-style:none;<br />
+   margin:0 12px 10px 12px;<br />
+   padding:4px;<br />
+   background:#feffe6;<br />
+}<br />
+ul#twitter_update_list li a {<br />
+   background-image:none;<br />
+   padding: 0px;<br />
+}<br />
+ul#twitter_update_list li a:link {<br />
+   color:#00a2d4;<br />
+   background-image:none;<br />
+}<br />
+ul#twitter_update_list li a:visited {<br />
+   background-image:none;<br />
+   padding:none;<br />
+}<br />
+#twitter-link {<br />
+   margin-left:14px;<br />
+   color:#fff;<br />
+   text-align:right;<br />
+}<br />
+[/css]</p>

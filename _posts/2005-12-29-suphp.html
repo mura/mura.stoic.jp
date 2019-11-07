@@ -1,0 +1,40 @@
+---
+layout: single
+title: suphp
+date: 2005-12-29 15:16:44.000000000 +09:00
+type: post
+tags: []
+permalink: "/2005/12/suphp/"
+---
+<p>suphp導入しました。<br />
+これは、ユーザ権限でPHPを動かすもの。ユーザは特に意識することなく導入できるのが強み。だけどまだapache 2.2には対応してなかった。。。<br />
+ということで、むりくりインストールした手順を公開。<br />
+まず、むりくりパッチをダウンロード<br />
+・<a href="/filez/suphp-0.5.2_apache22.diff" target="new">suphp-0.5.2_apache22.diff</a><br />
+[plain]<br />
+# cd /usr/ports/www/suphp<br />
+# make patch<br />
+↑まずpatch phaseまで進める<br />
+# cd work<br />
+# patch --batch < /tmp/suphp-0.5.2_apache22.diff<br />
+↑パッチをあてます。(diffのpathは適宜変更)<br />
+# cd ../<br />
+# make build<br />
+↑問題なくビルドできるか確認<br />
+# cd /usr/local/libexec<br />
+# ln -s apache22 apache2<br />
+↑moduleがインストールされるディレクトリにsymlinkを張る<br />
+# cd /usr/ports/www/suphp<br />
+# make install<br />
+[/plain]<br />
+※内部でcgi版phpを呼び出してるので、モジュール版phpとconflictします。<br />
+最後にhttpd.confに設定を書きます。<br />
+[plain]<br />
+LoadModule suphp_module       libexec/apache22/mod_suphp.so<br />
+&nbsp;<br />
+&lt;IfModule suphp_module&gt;<br />
+suPHP_Engine on<br />
+suPHP_ConfigPath /usr/local/etc<br />
+&lt;/IfModule&gt;<br />
+[/plain]<br />
+動かなかったらごめんなさい。</p>
