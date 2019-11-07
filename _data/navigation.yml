@@ -1,5 +1,5 @@
 main:
-  - title: "タグ"
+  - title: "タグ一覧"
     url: /tags/
   - title: "コンピュータ"
     url: /computers/
