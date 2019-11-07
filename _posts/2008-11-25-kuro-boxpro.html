@@ -1,0 +1,164 @@
+---
+layout: single
+title: KURO-BOX/PRO
+date: 2008-11-25 02:01:25.000000000 +09:00
+type: post
+tags:
+- 玄箱PRO
+permalink: "/2008/11/kuro-boxpro/"
+---
+<p>玄箱 PROでいろいろ遊んでみた。<br />
+<a href="http://www.eleki-jack.com/Kurobox-pro2/">エレキジャック</a>さんや<a href="http://buffalo.nas-central.org/index.php/Buffalo_ARM9_Kernel_Port">Buffalo ARM9 Kernel Port</a>のページを参考に、Debian化やカーネル再構築なんかをやってみた。<br />
+今日はとりあえずブートログなんかをさらしてみる。</p>
+<p><!--more--><br />
+[plain]<br />
+Linux version 2.6.26.8-1.kuroboxPRO (mura@skyline.local.stoic.jp) (gcc version 3.4.4 (release) (CodeSourcery ARM 2005q3-2)) #2 PREEMPT Mon Nov 24 21:43:21 JST 2008<br />
+CPU: Feroceon [41069260] revision 0 (ARMv5TEJ), cr=a0053177<br />
+Machine: Buffalo/Revogear Kurobox Pro<br />
+Clearing invalid memory bank 0KB@0xffffffff<br />
+Clearing invalid memory bank 0KB@0xffffffff<br />
+Clearing invalid memory bank 0KB@0xffffffff<br />
+Ignoring unrecognised tag 0x00000000<br />
+Ignoring unrecognised tag 0x00000000<br />
+Ignoring unrecognised tag 0x00000000<br />
+Ignoring unrecognised tag 0x41000403<br />
+Memory policy: ECC disabled, Data cache writeback<br />
+On node 0 totalpages: 32768<br />
+DMA zone: 256 pages used for memmap<br />
+DMA zone: 0 pages reserved<br />
+DMA zone: 32512 pages, LIFO batch:7<br />
+Normal zone: 0 pages used for memmap<br />
+Movable zone: 0 pages used for memmap<br />
+CPU0: D VIVT write-back cache<br />
+CPU0: I cache: 32768 bytes, associativity 1, 32 byte lines, 1024 sets<br />
+CPU0: D cache: 32768 bytes, associativity 1, 32 byte lines, 1024 sets<br />
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512<br />
+Kernel command line: console=ttyS0,115200 root=/dev/sda2 rw panic=5 BOOTVER=1.09<br />
+PID hash table entries: 512 (order: 9, 2048 bytes)<br />
+Console: colour dummy device 80x30<br />
+Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)<br />
+Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)<br />
+Memory: 128MB = 128MB total<br />
+Memory: 126208KB available (3324K code, 231K data, 104K init)<br />
+Calibrating delay loop... 266.24 BogoMIPS (lpj=1331200)<br />
+Mount-cache hash table entries: 512<br />
+CPU: Testing write buffer coherency: ok<br />
+net_namespace: 324 bytes<br />
+NET: Registered protocol family 16<br />
+Orion ID: MV88F5182-A2. TCLK=166666667.<br />
+Applying Orion-1/Orion-NAS PCIe config read transaction workaround<br />
+PCI: bus0: Fast back to back transfers disabled<br />
+SCSI subsystem initialized<br />
+libata version 3.00 loaded.<br />
+usbcore: registered new interface driver usbfs<br />
+usbcore: registered new interface driver hub<br />
+usbcore: registered new device driver usb<br />
+NET: Registered protocol family 2<br />
+Switched to high resolution mode on CPU 0<br />
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)<br />
+TCP established hash table entries: 4096 (order: 3, 32768 bytes)<br />
+TCP bind hash table entries: 4096 (order: 2, 16384 bytes)<br />
+TCP: Hash tables configured (established 4096 bind 4096)<br />
+TCP reno registered<br />
+NET: Registered protocol family 1<br />
+NetWinder Floating Point Emulator V0.97 (double precision)<br />
+JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.<br />
+msgmni has been set to 246<br />
+io scheduler noop registered<br />
+io scheduler anticipatory registered<br />
+io scheduler deadline registered<br />
+io scheduler cfq registered (default)<br />
+Serial: 8250/16550 driver $Revision: 1.90 $ 2 ports, IRQ sharing disabled<br />
+serial8250.0: ttyS0 at MMIO 0xf1012000 (irq = 3) is a 16550A<br />
+console [ttyS0] enabled<br />
+serial8250.0: ttyS1 at MMIO 0xf1012100 (irq = 4) is a 16550A<br />
+loop: module loaded<br />
+MV-643xx 10/100/1000 Ethernet Driver<br />
+eth0: port 0 with MAC address 00:16:01:a4:ef:b4<br />
+eth0: Scatter Gather Enabled<br />
+eth0: TX TCP/IP Checksumming Supported<br />
+eth0: RX TCP/UDP Checksum Offload ON<br />
+eth0: RX NAPI Enabled<br />
+Driver 'sd' needs updating - please use bus_type methods<br />
+sata_mv sata_mv.0: version 1.24<br />
+sata_mv sata_mv.0: slots 32 ports 2<br />
+scsi0 : sata_mv<br />
+scsi1 : sata_mv<br />
+ata1: SATA max UDMA/133 irq 29<br />
+ata2: SATA max UDMA/133 irq 29<br />
+ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)<br />
+ata1.00: ATA-8: Hitachi HDP725050GLA360, GM4OA52A, max UDMA/133<br />
+ata1.00: 976773168 sectors, multi 0: LBA48 NCQ (depth 31/32)<br />
+ata1.00: configured for UDMA/133<br />
+ata2: SATA link down (SStatus 0 SControl 300)<br />
+scsi 0:0:0:0: Direct-Access     ATA      Hitachi HDP72505 GM4O PQ: 0 ANSI: 5<br />
+sd 0:0:0:0: [sda] 976773168 512-byte hardware sectors (500108 MB)<br />
+sd 0:0:0:0: [sda] Write Protect is off<br />
+sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00<br />
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA<br />
+sd 0:0:0:0: [sda] 976773168 512-byte hardware sectors (500108 MB)<br />
+sd 0:0:0:0: [sda] Write Protect is off<br />
+sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00<br />
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA<br />
+sda: sda1 sda2 sda3 sda4<br />
+sd 0:0:0:0: [sda] Attached SCSI disk<br />
+NFTL driver: nftlcore.c $Revision: 1.98 $, nftlmount.c $Revision: 1.41 $<br />
+physmap platform flash device: 00040000 at f4000000<br />
+CFI: Found no physmap-flash.0 device at location zero<br />
+Found: SST 39LF020<br />
+physmap-flash.0: Found 1 x8 devices at 0x0 in 8-bit bank<br />
+number of JEDEC chips: 1<br />
+cfi_cmdset_0002: Disabling erase-suspend-program due to code brokenness.<br />
+RedBoot partition parsing not available<br />
+ftl_cs: FTL header not found.<br />
+NAND device: Manufacturer ID: 0x20, Chip ID: 0xda (ST Micro NAND 256MiB 3,3V 8-bit)<br />
+Scanning device for bad blocks<br />
+Bad eraseblock 1717 at 0x0d6a0000<br />
+Creating 3 MTD partitions on "orion_nand":<br />
+0x00000000-0x00400000 : "uImage"<br />
+ftl_cs: FTL header not found.<br />
+0x00400000-0x04400000 : "rootfs"<br />
+ftl_cs: FTL header not found.<br />
+0x04400000-0x10000000 : "extra"<br />
+ftl_cs: FTL header not found.<br />
+orion-ehci orion-ehci.0: Marvell Orion EHCI<br />
+orion-ehci orion-ehci.0: new USB bus registered, assigned bus number 1<br />
+orion-ehci orion-ehci.0: irq 17, io mem 0xf1050000<br />
+orion-ehci orion-ehci.0: USB 2.0 started, EHCI 1.00, driver 10 Dec 2004<br />
+usb usb1: configuration #1 chosen from 1 choice<br />
+hub 1-0:1.0: USB hub found<br />
+hub 1-0:1.0: 1 port detected<br />
+orion-ehci orion-ehci.1: Marvell Orion EHCI<br />
+orion-ehci orion-ehci.1: new USB bus registered, assigned bus number 2<br />
+orion-ehci orion-ehci.1: irq 12, io mem 0xf10a0000<br />
+orion-ehci orion-ehci.1: USB 2.0 started, EHCI 1.00, driver 10 Dec 2004<br />
+usb usb2: configuration #1 chosen from 1 choice<br />
+hub 2-0:1.0: USB hub found<br />
+hub 2-0:1.0: 1 port detected<br />
+usbcore: registered new interface driver usblp<br />
+Initializing USB Mass Storage driver...<br />
+usbcore: registered new interface driver usb-storage<br />
+USB Mass Storage support registered.<br />
+mice: PS/2 mouse device common for all mice<br />
+i2c /dev entries driver<br />
+rtc-rs5c372 0-0032: rs5c372a found, 24hr, driver version 0.5<br />
+rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0<br />
+TCP cubic registered<br />
+NET: Registered protocol family 17<br />
+RPC: Registered udp transport module.<br />
+RPC: Registered tcp transport module.<br />
+VFP support v0.3: not present<br />
+rtc-rs5c372 0-0032: setting system clock to 2008-11-03 04:56:58 UTC (1225688218)<br />
+kjournald starting.  Commit interval 5 seconds<br />
+EXT3 FS on sda2, internal journal<br />
+EXT3-fs: mounted filesystem with ordered data mode.<br />
+VFS: Mounted root (ext3 filesystem).<br />
+Freeing init memory: 104K<br />
+Adding 136544k swap on /dev/sda3.  Priority:-1 extents:1 across:136544k<br />
+EXT3 FS on sda2, internal journal<br />
+kjournald starting.  Commit interval 5 seconds<br />
+EXT3 FS on sda4, internal journal<br />
+EXT3-fs: mounted filesystem with ordered data mode.<br />
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).<br />
+warning: `ntpd' uses 32-bit capabilities (legacy support in use)<br />
+[/plain]</p>
