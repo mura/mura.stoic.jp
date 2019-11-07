@@ -1,5 +1,5 @@
 ---
-title: "タグ別一覧"
+title: "タグ一覧"
 layout: tags
 classes: wide
 permalink: /tags/
