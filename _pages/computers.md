@@ -9,7 +9,7 @@ classes: wide
 ---
 いつも使っているPCを紹介します。<br />いわゆる自作PCです。
 
-- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=14078&amp;lang=ja) (Core i9環境, Win10でゲーム用グラフィックの測定は不可)
+- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=14078&amp;lang=ja) (Core i9環境：2018/6/17現在, Win10でゲーム用グラフィックの測定は不可)
 - [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=6492&amp;lang=ja) (Core i7環境：2014/12/1現在)
 - [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=4398&amp;lang=ja) (Phenom II環境：2014/3/30現在)
 
