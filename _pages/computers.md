@@ -1,7 +1,7 @@
 ---
 layout: single
 title: コンピュータ
-date: 2019-11-06 00:00:00.000000000 +09:00
+date: 2019-11-08 00:00:00.000000000 +09:00
 type: page
 permalink: "/computers/"
 author_profile: true
@@ -9,9 +9,9 @@ classes: wide
 ---
 いつも使っているPCを紹介します。<br />いわゆる自作PCです。
 
-- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=14078&amp;lang=ja) (2018/6/17現在, ゲーム用グラフィックは9.9)
-- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=6492&amp;lang=ja) (旧環境：2014/12/1現在)
-- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=4398&amp;lang=ja) (旧旧環境：2014/3/30現在)
+- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=14078&amp;lang=ja) (Core i9環境, Win10でゲーム用グラフィックの測定は不可)
+- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=6492&amp;lang=ja) (Core i7環境：2014/12/1現在)
+- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=4398&amp;lang=ja) (Phenom II環境：2014/3/30現在)
 
 ### メインマシン
 
