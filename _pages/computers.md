@@ -21,7 +21,7 @@ CPU | Intel | Core i9-7900X | Skylake-X/3.3GHz/10C/20T
 CPU Cooler | Cooler Master | [MasterLiquid 240](https://apac.coolermaster.com/jp/cooling/cpu-liquid-cooler/masterliquid-240/) | 簡易水冷/240mmラジエーター
 Motherboad | ASUS | [ROG STRIX X299-E GAMING](https://www.asus.com/jp/Motherboards/ROG-STRIX-X299-E-GAMING/) | Intel X299 Chipset
 Memory | Crucial | CT4K8G4DFS8266 | DDR4-2666/32GB/Micron
-td>Video | EVGA | [GeForce GTX 1070 SC GAMING](http://www.evga.com/Products/Product.aspx?pn=08G-P4-6173-KR)] | GTX 1070/8GB/ACX 3.0
+td>Video | EVGA | [GeForce GTX 1070 SC GAMING](http://www.evga.com/Products/Product.aspx?pn=08G-P4-6173-KR) | GTX 1070/8GB/ACX 3.0
 SSD | Samsung | MZ-V6E500B/IT | 960 EVO/500GB/NVMe/M.2
 SSD | Samsung |  MZ-76E1T0B/IT  | 860 EVO/1TB/SATA
 HDD | TOSHIBA | MD04ACA300 | 3TB/7200rpm/SATA600
