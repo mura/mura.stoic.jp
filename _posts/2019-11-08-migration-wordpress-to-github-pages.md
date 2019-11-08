@@ -25,3 +25,10 @@ GitHub PagesはCGI的なものは動かないが、[Jekyll](http://jekyllrb-ja.g
 Jekyllの解説サイトに載っている`_config.yml`の`theme:`で設定できるテーマはGitHub Pagesでは[サポートされているテーマ](https://pages.github.com/themes/)以外指定できない。
 
 現時点では[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)というテーマを使っていて、これはサポートされているテーマに入ってないので`remote_theme:`の指定をすることで解決。
+
+## jekyll-archives が動かない
+またまた結論から言うと、互換性がない。
+
+元も子もないが、[バージョンの依存関係](https://pages.github.com/versions/)に載っているライブラリしか動かないので、ここにない jekyll-archives プラグインは動かない。
+
+仕方ないので Liquid (デフォルト) 一択で。
