@@ -1,0 +1,73 @@
+--- rna.cgi.20051114	Tue Jan  6 22:27:54 2004
++++ rna.cgi	Mon Nov 14 13:36:05 2005
+@@ -96,6 +96,11 @@ if   ($mode eq 'javascript') {
+ 		target=>$cgi->param('target')||'',
+ 		encoding=>$cgi->param('encoding')||'' );
+ }
++elsif($mode eq 'ssi') {
++	&ssi('template_uri'=>$cgi->param('template')||'', 
++		target=>$cgi->param('target')||'',
++		encoding=>$cgi->param('encoding')||'' );
++}
+ elsif($mode eq 'opml') {
+ 	&opml;
+ }
+@@ -125,4 +130,10 @@ sub opml
+ sub javascript
+ {
+ 	print $rna->js_output(@_);
++}
++
++#
++sub ssi
++{
++	print $rna->ssi_output(@_);
+ }
+--- lib/RNA.pm.20051114	Sun Feb  8 02:52:57 2004
++++ lib/RNA.pm	Mon Nov 14 13:34:07 2005
+@@ -949,6 +949,45 @@ sub authenticate
+ }
+ 
+ 
++# SSI 出力
++#
++# $self->js_output('template_uri'=>'http://hogehoge/template1, 
++#		target=>'RecentEntryList', encoding=>'UTF-8');
++#
++#	target: 'RecentEntryList', 'RecentSiteList', 
++#			'RecentSiteEntryList', 'ClipList'
++#
++sub ssi_output
++{
++	my $self = shift;
++	my $config = $self->{Config};
++
++	my %arg = @_;
++	my $target = $arg{target}||'RecentEntryList';
++	my $template_uri = $arg{'template_uri'}
++		||$config->{BaseURI} . $config->{Template}->{JavascriptDefault};
++	my $encoding = $arg{encoding}||$config->{Encoding};
++
++	my ($template, $headers) 
++		= &get_html(uri=>$template_uri, timeout=>$config->{Timeout});
++
++	my $rss = new RNA::RSS;
++	$rss->parsefile($config->{$target}->{RSS});
++	my $str_ref = RNA::AntennaTree::apply_template_to_rss(
++						$rss, $template, $config->{Template}->{Element});
++
++	# 文字コード変換
++	&convert_char_code($str_ref, $encoding);
++
++	# 出力
++	require CGI;
++	print CGI->new->header(
++		-type=>'text/plain', -charset=>$encoding);
++
++	return $$str_ref;
++}
++
++
+ # Javascript 出力
+ #
+ # $self->js_output('template_uri'=>'http://hogehoge/template1, 

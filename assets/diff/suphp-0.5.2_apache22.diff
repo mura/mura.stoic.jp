@@ -1,0 +1,60 @@
+diff -rup suphp-0.5.2.ORG/configure suphp-0.5.2/configure
+--- suphp-0.5.2.ORG/configure	Tue Jul 13 18:43:40 2004
++++ suphp-0.5.2/configure	Thu Dec 29 15:04:01 2005
+@@ -2404,8 +2404,8 @@ if test -n "$APXS"; then
+                     | cut -f2 -d":" \
+                     | cut -f2 -d"/" \
+                     | cut -f1 -d" "`
+-    major_version=`echo $APACHE_VERSION|cut -f1,2 -d.`
+-    if test "$major_version" = "2.0"; then
++    major_version=`echo $APACHE_VERSION|cut -f1 -d.`
++    if test "$major_version" = "2"; then
+       APACHE_VERSION_2=true
+       APACHE_VERSION_1_3=false
+     else
+diff -rup suphp-0.5.2.ORG/src/apache2/Makefile.in suphp-0.5.2/src/apache2/Makefile.in
+--- suphp-0.5.2.ORG/src/apache2/Makefile.in	Tue Jul 13 18:43:41 2004
++++ suphp-0.5.2/src/apache2/Makefile.in	Thu Dec 29 15:07:38 2005
+@@ -14,6 +14,7 @@ LDFLAGS = @LDFLAGS@
+ INSTALL = @INSTALL@
+ INSTALL_PROGRAM = @INSTALL_PROGRAM@
+ APXS = @APXS@
++LTFLAGS = '--tag=CC'
+ 
+ DESTDIR =
+ 
+@@ -30,7 +31,7 @@ EXTRADEFS = -DSUPHP_PATH_TO_SUPHP=\\\"$(
+ all: mod_suphp.la
+ 
+ mod_suphp.la: mod_suphp.c
+-	$(APXS) -c -o mod_suphp.la $(DEFS) $(EXTRADEFS) $(INCLUDES) -Wc,"$(CFLAGS)" mod_suphp.c
++	LTFLAGS=$(LTFLAGS) $(APXS) -c -o mod_suphp.la $(DEFS) $(EXTRADEFS) $(INCLUDES) -Wc,"$(CFLAGS)" mod_suphp.c
+ 
+ install: mod_suphp.la
+ 	$(APXS) -i -a mod_suphp.la
+diff -rup suphp-0.5.2.ORG/src/apache2/mod_suphp.c suphp-0.5.2/src/apache2/mod_suphp.c
+--- suphp-0.5.2.ORG/src/apache2/mod_suphp.c	Thu Dec 29 15:03:23 2005
++++ suphp-0.5.2/src/apache2/mod_suphp.c	Thu Dec 29 15:06:05 2005
+@@ -23,6 +23,22 @@
+ #include "apr_thread_proc.h"
+ #include "apr_buckets.h"
+ 
++#ifndef APR_RING_FOREACH
++#define APR_RING_FOREACH(ep, hp, elem, link) \
++  for ((ep) = APR_RING_FIRST((hp)); \
++    (ep) != APR_RING_SENTINEL((hp), elem, link); \
++    (ep)  = APR_RING_NEXT((ep), link))
++#endif
++
++#ifndef APR_BRIGADE_FOREACH
++#define APR_BRIGADE_FOREACH(e, b)                                       \
++        APR_RING_FOREACH((e), &(b)->list, apr_bucket, link)
++#endif
++
++#ifndef APR_STATUS_IS_SUCCESS
++#define APR_STATUS_IS_SUCCESS(s)           ((s) == APR_SUCCESS )
++#endif
++
+ #define CORE_PRIVATE
+ 
+ #include "httpd.h"
