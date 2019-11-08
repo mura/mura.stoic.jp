@@ -7,7 +7,7 @@ tags:
 - Jekyll
 permalink: "/2019/11/migration-wordpress-to-github-pages/"
 ---
-長らく放置していた本ブログだが、WordPressの運用にも飽きてきたのと、ホスティングしているペパボがCGI版のPHP7しかまともに動く環境がなくなってきたことで、思い切ってGitHub Pagesに移してみた。
+長らく放置していた本ブログだが、WordPressの運用にも飽きてきたのと、ホスティングしているロリポップがCGI版のPHP7しかまともに動く環境がなくなってきたことで、思い切ってGitHub Pagesに移してみた。
 
 GitHub PagesはCGI的なものは動かないが、[Jekyll](http://jekyllrb-ja.github.io/)というページジェネレーターのプロジェクトを置いておくとビルドしてデプロイまでしてくれるので、ブログ的な運用ができる。<br>
 → [GitHub PagesとJekyllについて](https://help.github.com/ja/github/working-with-github-pages/about-github-pages-and-jekyll)
