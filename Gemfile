@@ -37,3 +37,6 @@ gem "minimal-mistakes-jekyll"
 # gem 'jekyll-import'
 # gem 'hpricot'
 # gem 'open_uri_redirections'
+
+gem 'rmagick'
+gem 'mime-types'
