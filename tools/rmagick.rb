@@ -8,7 +8,6 @@ require 'mime/types'
 assets_dir = File.expand_path("../assets/images", __dir__)
 sub_dir = Date.today.strftime('%Y/%m')
 output_dir = File.expand_path(sub_dir, assets_dir)
-p output_dir
 
 class AssetImage
   def initialize(filename, output_dir)
