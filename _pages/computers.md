@@ -1,7 +1,7 @@
 ---
 layout: single
 title: コンピュータ
-date: 2019-11-08 00:00:00.000000000 +09:00
+date: 2020-04-07 00:00:00.000000000 +09:00
 type: page
 permalink: "/computers/"
 author_profile: true
@@ -27,8 +27,8 @@ SSD | Samsung |  MZ-76E1T0B/IT  | 860 EVO/1TB/SATA
 HDD | TOSHIBA | MD04ACA300 | 3TB/7200rpm/SATA600
 Optical Drive | Pionner | BDR-208JBK | BD-R 15x/BDXL対応
 Chassis | Cooler Master | [CM 690 III](http://apac.coolermaster.com/jp/product/Detail/case/mid-tower-cm690-series/cm693.html) | &nbsp;
-Display | ASUS | PB278Q | 27in./2560x1440/60hz
-Display | Acer | KG271Abmidpx | 27in./1920x1080/144hz
+Monitor | LG | 32UL750-W | 31.5in./3840×2160/60hz
+Monitor | Acer | KG271Abmidpx | 27in./1920x1080/144hz
 Speaker | ONKYO | GX-70HD2(B) | &nbsp;
 Power Unit | Corsair | RM850x (2018) | 850W/80PLUS GOLD
 Keyboad | 東プレ | R2TLS-JP4-BK | 91キー/45g/静音
