@@ -1,7 +1,7 @@
 ---
 layout: single
 title: コンピュータ
-date: 2020-04-07 00:00:00.000000000 +09:00
+date: 2020-04-24 00:00:00.000000000 +09:00
 type: page
 permalink: "/computers/"
 author_profile: true
@@ -29,6 +29,7 @@ Optical Drive | Pionner | BDR-208JBK | BD-R 15x/BDXL対応
 Chassis | Cooler Master | [CM 690 III](http://apac.coolermaster.com/jp/product/Detail/case/mid-tower-cm690-series/cm693.html) | &nbsp;
 Monitor | LG | 32UL750-W | 31.5in./3840×2160/60hz
 Monitor | Acer | KG271Abmidpx | 27in./1920x1080/144hz
+USB-DAC | FX-AUDIO- | DAC-M6J | AK4452VN/24bit/192kHz
 Speaker | ONKYO | GX-70HD2(B) | &nbsp;
 Power Unit | Corsair | RM850x (2018) | 850W/80PLUS GOLD
 Keyboad | 東プレ | R2TLS-JP4-BK | 91キー/45g/静音
