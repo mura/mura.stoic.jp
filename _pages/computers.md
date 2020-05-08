@@ -33,7 +33,6 @@ USB-DAC | FX-AUDIO- | DAC-M6J | AK4452VN/24bit/192kHz
 Speaker | ONKYO | GX-70HD2(B) | &nbsp;
 Power Unit | Corsair | RM850x (2018) | 850W/80PLUS GOLD
 Keyboad | 東プレ | R2TLS-JP4-BK | 91キー/45g/静音
-Keyboad | Logicool | G13 Advaced Gameboard | &nbsp;
 Mouse | Logicool | [G603](https://gaming.logicool.co.jp/ja-jp/products/gaming-mice/g603-lightspeed-wireless-gaming-mouse.html) | Heroセンサー
 OS | Microsoft | Windows 10 Pro | &nbsp;
 
