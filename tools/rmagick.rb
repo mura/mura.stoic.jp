@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
-require 'RMagick'
+require 'rmagick'
 require 'date'
 require 'fileutils'
 require 'mime/types'

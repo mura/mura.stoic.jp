@@ -39,5 +39,5 @@ gem "minimal-mistakes-jekyll"
 # gem 'hpricot'
 # gem 'open_uri_redirections'
 
-gem 'rmagick'
+gem 'rmagick', "~> 4.0"
 gem 'mime-types'
