@@ -1,7 +1,7 @@
 ---
 layout: single
 title: コンピュータ
-date: 2020-04-24 00:00:00.000000000 +09:00
+date: 2020-05-15 00:00:00.000000000 +09:00
 type: page
 permalink: "/computers/"
 author_profile: true
