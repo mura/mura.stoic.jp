@@ -41,3 +41,7 @@ gem "minimal-mistakes-jekyll"
 
 gem 'rmagick', "~> 4.1"
 gem 'mime-types'
+
+group :development do
+  gem 'bundler-audit'
+end
