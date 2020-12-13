@@ -6,6 +6,7 @@ type: post
 tags:
 - Linux
 - Raspberry Pi
+- Internet
 permalink: "/2020/03/multihoming-with-dhcp/"
 ---
 ## 我が家のインターネット環境
@@ -40,7 +41,11 @@ VLANには2種類あって、LANポートごとに割り当てる「ポートVLA
 ## まずはVLANの設定
 うちで使っているRaspberry Piには[Ubuntu Server for ARM](https://ubuntu.com/download/server/arm)を入れているので、普通のUbuntuも同じような設定できるはず。
 
-Ubuntu 19.10を使っているとnetplanがインストールされてると思うので、その設定ファイルに追加する。自分の環境では `/etc/netplan/50-cloud-init.yaml` があったのでそこに追記した。
+Ubuntu 19.10を使っているとnetplanがインストールされてると思うので、その設定ファイルに追加する。自分の環境では ~~/etc/netplan/50-cloud-init.yaml~~ があったのでそこに追記した。
+
+2020/12追記：`/etc/netplan/50-cloud-init.yaml` は cloud-init というフレームワークが自動で書き換える可能性があるので編集してはいけなかった。<br>
+→ [【Ubuntu】 /etc/netplan/50-cloud-init.yamlを編集するの止めろ](https://qiita.com/yas-nyan/items/9033fb1d1037dcf9dba5)<br>
+このファイル名より後になるようなファイルを置けば設定は上書きされるので`99-interfaces.yaml`などに書くとよい。
 
 ```yaml
 network:
