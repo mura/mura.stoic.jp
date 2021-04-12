@@ -282,10 +282,10 @@ DEPENDENCIES
   github-pages (~> 214)
   jekyll-archives
   jekyll-commonmark-ghpages
-  jekyll-feed (~> 0.6)
-  jekyll-include-cache (~> 0.1)
+  jekyll-feed
+  jekyll-include-cache
   mime-types
-  minima (~> 2.0)
+  minima
   minimal-mistakes-jekyll
   rmagick (~> 4.1)
   tzinfo-data
