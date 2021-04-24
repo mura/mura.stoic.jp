@@ -1,7 +1,7 @@
 ---
 layout: single
 title: コンピュータ
-date: 2020-05-15 00:00:00.000000000 +09:00
+date: 2021-04-24 00:00:00.000000000 +09:00
 type: page
 permalink: "/computers/"
 author_profile: true
@@ -22,8 +22,7 @@ CPU Cooler | Cooler Master | [MasterLiquid 240](https://apac.coolermaster.com/jp
 Motherboad | ASUS | [ROG STRIX X299-E GAMING](https://www.asus.com/jp/Motherboards/ROG-STRIX-X299-E-GAMING/) | Intel X299 Chipset
 Memory | Crucial | CT4K8G4DFS8266 | DDR4-2666/32GB/Micron
 Video | ASUS | [TUF-RTX3070-O8G-GAMING](https://www.asus.com/jp/Graphics-Cards/TUF-RTX3070-O8G-GAMING/) | RTX 3070/8GB
-SSD | Samsung | MZ-V6E500B/IT | 960 EVO/500GB/NVMe/M.2
-SSD | Samsung | MZ-76E1T0B/IT | 860 EVO/1TB/SATA
+SSD | Western Digital | WDS100T1X0E-00AFY0 | SN850/1TB/NVMe/M.2
 SSD | Intel | [SSDPEKNW010T9X1](https://ark.intel.com/content/www/jp/ja/ark/products/195439/intel-ssd-665p-series-1-0tb-m-2-80mm-pcie-3-0-x4-3d3-qlc.html) | x2/665p/1TB/NVMe/M.2
 Expansion Card | ASUS | [HYPER M.2 X16 GEN 4 CARD](https://www.asus.com/jp/Motherboard-Accessories/HYPER-M-2-X16-GEN-4-CARD/) | 4xM.2
 Optical Drive | Pionner | BDR-208JBK | BD-R 15x/BDXL対応
