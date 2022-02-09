@@ -1,7 +1,7 @@
 ---
 layout: single
 title: コンピュータ
-date: 2021-04-28 00:00:00.000000000 +09:00
+date: 2022-02-09 00:00:00.000000000 +09:00
 type: page
 permalink: "/computers/"
 author_profile: true
@@ -17,14 +17,13 @@ classes: wide
 
 Parts | Manufacturer | Products | Note
 ---|---|---|---
-CPU | Intel | Core i9-7900X | Skylake-X/3.3GHz/10C/20T
-CPU Cooler | Cooler Master | [MasterLiquid 240](https://apac.coolermaster.com/jp/cooling/cpu-liquid-cooler/masterliquid-240/) | 簡易水冷/240mmラジエーター
-Motherboad | ASUS | [ROG STRIX X299-E GAMING](https://www.asus.com/jp/Motherboards/ROG-STRIX-X299-E-GAMING/) | Intel X299 Chipset
-Memory | Crucial | CT4K8G4DFS8266 | DDR4-2666/8GB x4/Micron
+CPU | Intel | Core i9-12900K | Alder Lake-S/3.2GHz/16C/24T
+CPU Cooler | Cooler Master | [MasterLiquid 240](https://apac.coolermaster.com/jp/cooling/cpu-liquid-cooler/masterliquid-240/) | 240mm簡易水冷
+Motherboad | ASUS | [ROG STRIX Z690-F GAMING WIFI](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-z690-f-gaming-wifi-model/) | Intel Z690 Chipset
+Memory | Corsair | CMK32GX5M2B5600C36 | DDR5-5600/16GB x2/Samsung
 Video | ASUS | [TUF-RTX3070-O8G-GAMING](https://www.asus.com/jp/Graphics-Cards/TUF-RTX3070-O8G-GAMING/) | RTX 3070/8GB
 SSD | Western Digital | WDS100T1X0E-00AFY0 | SN850/1TB/NVMe/M.2
 SSD | Intel | [SSDPEKNW010T9X1](https://ark.intel.com/content/www/jp/ja/ark/products/195439/intel-ssd-665p-series-1-0tb-m-2-80mm-pcie-3-0-x4-3d3-qlc.html) | 665p/1TB x2/NVMe/M.2
-Expansion Card | ASUS | [HYPER M.2 X16 GEN 4 CARD](https://www.asus.com/jp/Motherboard-Accessories/HYPER-M-2-X16-GEN-4-CARD/) | M.2 x4
 Optical Drive | Pionner | BDR-208JBK | BD-R 15x/BDXL対応
 Chassis | Cooler Master | [CM 690 III](http://apac.coolermaster.com/jp/product/Detail/case/mid-tower-cm690-series/cm693.html) | ATX
 Monitor | LG | 32UL750-W | 31.5in./3840×2160/60hz
@@ -34,7 +33,7 @@ Speaker | ONKYO | GX-70HD2(B) | 11W x2/48Hz~100kHz
 Power Unit | Corsair | RM850x (2018) | 850W/80PLUS GOLD
 Keyboad | 東プレ | R2TLS-JP4-BK | 91キー/45g/静音
 Mouse | Logicool | [G603](https://gaming.logicool.co.jp/ja-jp/products/gaming-mice/g603-lightspeed-wireless-gaming-mouse.html) | Heroセンサー
-OS | Microsoft | Windows 10 Pro | &nbsp;
+OS | Microsoft | Windows 11 Pro | &nbsp;
 
 ### サブマシン
 
