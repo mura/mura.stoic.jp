@@ -18,14 +18,13 @@ classes: wide
 Parts | Manufacturer | Products | Note
 ---|---|---|---
 CPU | Intel | Core i9-12900K | Alder Lake-S/3.2GHz/16C/24T
-CPU Cooler | Cooler Master | [MasterLiquid 240](https://apac.coolermaster.com/jp/cooling/cpu-liquid-cooler/masterliquid-240/) | 240mm簡易水冷
+CPU Cooler | Corsair | [iCUE H150i RGB ELITE](https://www.corsair.com/p/CW-9060060-WW) | 360mm簡易水冷
 Motherboad | ASUS | [ROG STRIX Z690-F GAMING WIFI](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-z690-f-gaming-wifi-model/) | Intel Z690 Chipset
 Memory | Corsair | CMK32GX5M2B5600C36 | DDR5-5600/16GB x2/Samsung
 Video | ASUS | [TUF-RTX3070-O8G-GAMING](https://www.asus.com/jp/Graphics-Cards/TUF-RTX3070-O8G-GAMING/) | RTX 3070/8GB
 SSD | Western Digital | WDS100T1X0E-00AFY0 | SN850/1TB/NVMe/M.2
 SSD | Intel | [SSDPEKNW010T9X1](https://ark.intel.com/content/www/jp/ja/ark/products/195439/intel-ssd-665p-series-1-0tb-m-2-80mm-pcie-3-0-x4-3d3-qlc.html) | 665p/1TB x2/NVMe/M.2
-Optical Drive | Pionner | BDR-208JBK | BD-R 15x/BDXL対応
-Chassis | Cooler Master | [CM 690 III](http://apac.coolermaster.com/jp/product/Detail/case/mid-tower-cm690-series/cm693.html) | ATX
+Chassis | Fractal Design | [Define 7 Dark Tempered Glass](https://www.fractal-design.com/ja/products/cases/define/define-7-dark-tempered-glass/black/) | E-ATX/ATX
 Monitor | LG | 32UL750-W | 31.5in./3840×2160/60hz
 Monitor | Acer | KG271Abmidpx | 27in./1920x1080/144hz
 USB-DAC | TOPPING | DX3 Pro+ | ES9038Q2M/768kHz/32bit/DSD512
