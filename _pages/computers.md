@@ -1,7 +1,7 @@
 ---
 layout: single
 title: コンピュータ
-date: 2022-08-12 00:00:00.000000000 +09:00
+date: 2023-01-04 00:00:00.000000000 +09:00
 type: page
 permalink: "/computers/"
 author_profile: true
@@ -25,13 +25,13 @@ Video | ASUS | [TUF-RTX3070-O8G-GAMING](https://www.asus.com/jp/Graphics-Cards/T
 SSD | Western Digital | WDS100T1X0E-00AFY0 | SN850/1TB/NVMe/M.2
 SSD | Intel | [SSDPEKNW010T9X1](https://ark.intel.com/content/www/jp/ja/ark/products/195439/intel-ssd-665p-series-1-0tb-m-2-80mm-pcie-3-0-x4-3d3-qlc.html) | 665p/1TB x2/NVMe/M.2
 Chassis | Fractal Design | [Define 7 Dark Tempered Glass](https://www.fractal-design.com/ja/products/cases/define/define-7-dark-tempered-glass/black/) | E-ATX/ATX
-Monitor | LG | 32UL750-W | 31.5in./3840×2160/60hz
-Monitor | Acer | KG271Abmidpx | 27in./1920x1080/144hz
+Monitor | DELL | U4021QW | 39.7in./5120x2160/60hz
 USB-DAC | TOPPING | DX3 Pro+ | ES9038Q2M/768kHz/32bit/DSD512
 Speaker | ONKYO | GX-70HD2(B) | 11W x2/48Hz~100kHz
 Power Unit | Corsair | RM850x (2018) | 850W/80PLUS GOLD
 Keyboad | 東プレ | R2TLS-JP4-BK | 91キー/45g/静音
 Mouse | Logicool | [G603](https://gaming.logicool.co.jp/ja-jp/products/gaming-mice/g603-lightspeed-wireless-gaming-mouse.html) | Heroセンサー
+Other | Elgato | [Stream Deck Mk.2](https://www.elgato.com/ja/stream-deck-mk2) | &nbsp;
 OS | Microsoft | Windows 11 Pro | &nbsp;
 
 ### サブマシン
@@ -46,4 +46,4 @@ Video | MSI | [GeForce GT 1030 2G LP OC](https://jp.msi.com/Graphics-card/GeForc
 SSD | Crucial | CT1000P1SSD8JP  | P1/1000GB/NVMe/QLC
 Chassis | Cooler Master | [MasterCase H100](https://apac.coolermaster.com/jp/case/mini-itx/mastercase-h100/) | &nbsp;
 Power Unit | Antec | EA-650 Platinum | 650W/80PLUS PLATINUM
-OS | Microsoft | Windows 10 Inside Preview | &nbsp;
+OS | Microsoft | Windows 11 Insider Preview | &nbsp;
