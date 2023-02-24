@@ -23,7 +23,7 @@ Motherboad | ASUS | [ROG STRIX Z690-F GAMING WIFI](https://rog.asus.com/jp/mothe
 Memory | Corsair | CMK32GX5M2B5600C36 | DDR5-5600/16GB x2/Samsung
 Video | ASUS | [TUF-RTX3070-O8G-GAMING](https://www.asus.com/jp/Graphics-Cards/TUF-RTX3070-O8G-GAMING/) | RTX 3070/8GB
 SSD | Western Digital | WDS100T1X0E-00AFY0 | SN850/1TB/NVMe/M.2
-SSD | Intel | [SSDPEKNW010T9X1](https://ark.intel.com/content/www/jp/ja/ark/products/195439/intel-ssd-665p-series-1-0tb-m-2-80mm-pcie-3-0-x4-3d3-qlc.html) | 665p/1TB x2/NVMe/M.2
+SSD | Intel | SSDPEKNW010T9X1 | 665p/1TB x2/NVMe/M.2
 Chassis | Fractal Design | [Define 7 Dark Tempered Glass](https://www.fractal-design.com/ja/products/cases/define/define-7-dark-tempered-glass/black/) | E-ATX/ATX
 Monitor | DELL | U4021QW | 39.7in./5120x2160/60hz
 USB-DAC | TOPPING | DX3 Pro+ | ES9038Q2M/768kHz/32bit/DSD512
