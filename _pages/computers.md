@@ -9,10 +9,6 @@ classes: wide
 ---
 いつも使っているPCを紹介します。<br />いわゆる自作PCです。
 
-- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=14078&amp;lang=ja) (Core i9環境：2018/6/17現在, Win10でゲーム用グラフィックの測定は不可)
-- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=6492&amp;lang=ja) (Core i7環境：2014/12/1現在)
-- [WinScoreShare](http://soundengine.jp/software/winscoreshare/share.php?id=4398&amp;lang=ja) (Phenom II環境：2014/3/30現在)
-
 ### メインマシン
 
 Parts | Manufacturer | Products | Note
@@ -47,3 +43,9 @@ SSD | Crucial | CT1000P1SSD8JP  | P1/1000GB/NVMe/QLC
 Chassis | Cooler Master | [MasterCase H100](https://apac.coolermaster.com/jp/case/mini-itx/mastercase-h100/) | &nbsp;
 Power Unit | Antec | EA-650 Platinum | 650W/80PLUS PLATINUM
 OS | Microsoft | Windows 11 Insider Preview | &nbsp;
+
+### WinScoreShare
+
+- [Core i9(Skylake-X)環境](http://soundengine.jp/software/winscoreshare/share.php?id=14078&amp;lang=ja) (2018/6/17現在, Win10でゲーム用グラフィックの測定は不可)
+- [Core i7環境](http://soundengine.jp/software/winscoreshare/share.php?id=6492&amp;lang=ja) (2014/12/1現在)
+- [Phenom II環境](http://soundengine.jp/software/winscoreshare/share.php?id=4398&amp;lang=ja) (2014/3/30現在)
