@@ -16,17 +16,18 @@ Parts | Manufacturer | Products | Note
 CPU | Intel | Core i9-12900K | Alder Lake-S/3.2GHz/16C/24T
 CPU Cooler | Corsair | [iCUE H150i RGB ELITE](https://www.corsair.com/p/CW-9060060-WW) | 360mm簡易水冷
 Motherboad | ASUS | [ROG STRIX Z690-F GAMING WIFI](https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-z690-f-gaming-wifi-model/) | Intel Z690 Chipset
-Memory | Corsair | CMK32GX5M2B5600C36 | DDR5-5600/16GB x2/Samsung
+Memory | Corsair | CMK64GX5M2B5600C40 | DDR5-5600/32GB x2/Micron
 Video | ASUS | [TUF-RTX3070-O8G-GAMING](https://www.asus.com/jp/Graphics-Cards/TUF-RTX3070-O8G-GAMING/) | RTX 3070/8GB
-SSD | Western Digital | WDS100T1X0E-00AFY0 | SN850/1TB/NVMe/M.2
-SSD | Intel | SSDPEKNW010T9X1 | 665p/1TB x2/NVMe/M.2
+SSD | Western Digital | WDS100T1X0E-00AFY0 | SN850/1TB/NVMe Gen4x4/M.2
+SSD | Intel | SSDPEKNW010T9X1 | 665p/1TB x2/NVMe Gen3x4/M.2
 Chassis | Fractal Design | [Define 7 Dark Tempered Glass](https://www.fractal-design.com/ja/products/cases/define/define-7-dark-tempered-glass/black/) | E-ATX/ATX
 Monitor | DELL | U4021QW | 39.7in./5120x2160/60hz
 USB-DAC | TOPPING | DX3 Pro+ | ES9038Q2M/768kHz/32bit/DSD512
-Speaker | ONKYO | GX-70HD2(B) | 11W x2/48Hz~100kHz
+Speaker | TASCAM | VL-S3 | オンボードサウンドに接続
+Speaker | ONKYO | GX-70HD2(B) | DX3 Pro+に接続
 Power Unit | Corsair | RM850x (2018) | 850W/80PLUS GOLD
 Keyboad | 東プレ | R2TLS-JP4-BK | 91キー/45g/静音
-Mouse | Logicool | [G603](https://gaming.logicool.co.jp/ja-jp/products/gaming-mice/g603-lightspeed-wireless-gaming-mouse.html) | Heroセンサー
+Mouse | Logicool | G603 | Heroセンサー
 Other | Elgato | [Stream Deck Mk.2](https://www.elgato.com/ja/stream-deck-mk2) | &nbsp;
 OS | Microsoft | Windows 11 Pro | &nbsp;
 
@@ -39,13 +40,12 @@ CPU Cooler | Noctua | [NH-L12S](https://noctua.at/en/products/cpu-cooler-retail/
 Motherboad | ASUS | [ROG STRIX B450-I GAMING](https://www.asus.com/jp/Motherboards/ROG-STRIX-B450-I-GAMING/) | AMD B450/mini-ITX
 Memory | CFD | W4U3200CM-8G | DDR4-3200/16GB/Micron
 Video | MSI | [GeForce GT 1030 2G LP OC](https://jp.msi.com/Graphics-card/GeForce-GT-1030-2G-LP-OC/) | DisplayPort/HDMI
-SSD | Crucial | CT1000P1SSD8JP  | P1/1000GB/NVMe/QLC
+SSD | Crucial | CT1000P1SSD8JP | P1/1000GB/NVMe/QLC
 Chassis | Cooler Master | [MasterCase H100](https://apac.coolermaster.com/jp/case/mini-itx/mastercase-h100/) | &nbsp;
 Power Unit | Antec | EA-650 Platinum | 650W/80PLUS PLATINUM
 OS | Microsoft | Windows 11 Insider Preview | &nbsp;
 
 ### WinScoreShare
-
 - [Core i9(Skylake-X)環境](http://soundengine.jp/software/winscoreshare/share.php?id=14078&amp;lang=ja) (2018/6/17現在, Win10でゲーム用グラフィックの測定は不可)
 - [Core i7環境](http://soundengine.jp/software/winscoreshare/share.php?id=6492&amp;lang=ja) (2014/12/1現在)
 - [Phenom II環境](http://soundengine.jp/software/winscoreshare/share.php?id=4398&amp;lang=ja) (2014/3/30現在)
