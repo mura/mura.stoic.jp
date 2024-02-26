@@ -1,7 +1,7 @@
 ---
 layout: single
 title: コンピュータ
-date: 2023-07-01 00:00:00.000000000 +09:00
+date: 2024-02-26 00:00:00.000000000 +09:00
 type: page
 permalink: "/computers/"
 author_profile: true
@@ -26,24 +26,10 @@ USB-DAC | TOPPING | DX3 Pro+ | ES9038Q2M/768kHz/32bit/DSD512
 Speaker | TASCAM | VL-S3 | オンボードサウンドに接続
 Speaker | ONKYO | GX-70HD2(B) | DX3 Pro+に接続
 Power Unit | Corsair | RM850x (2018) | 850W/80PLUS GOLD
-Keyboad | 東プレ | R2TLS-JP4-BK | 91キー/45g/静音
-Mouse | Logicool | G603 | Heroセンサー
+Keyboad | ダイアテック | Majestouch Xacro M10SP 76JP | 静音赤軸/左右分割型
+Mouse | Logicool | G502 X LIGHTSPEED | &nbsp;
 Other | Elgato | [Stream Deck Mk.2](https://www.elgato.com/ja/stream-deck-mk2) | &nbsp;
 OS | Microsoft | Windows 11 Pro | &nbsp;
-
-### サブマシン
-
-Parts | Manufacturer | Products | Note
----|---|---|---
-CPU | AMD | Ryzen 5 3600 | Zen 2/3.6GHz/6C/12T
-CPU Cooler | Noctua | [NH-L12S](https://noctua.at/en/products/cpu-cooler-retail/nh-l12s) | &nbsp;
-Motherboad | ASUS | [ROG STRIX B450-I GAMING](https://www.asus.com/jp/Motherboards/ROG-STRIX-B450-I-GAMING/) | AMD B450/mini-ITX
-Memory | CFD | W4U3200CM-8G | DDR4-3200/16GB/Micron
-Video | MSI | [GeForce GT 1030 2G LP OC](https://jp.msi.com/Graphics-card/GeForce-GT-1030-2G-LP-OC/) | DisplayPort/HDMI
-SSD | Crucial | CT1000P1SSD8JP | P1/1000GB/NVMe/QLC
-Chassis | Cooler Master | [MasterCase H100](https://apac.coolermaster.com/jp/case/mini-itx/mastercase-h100/) | &nbsp;
-Power Unit | Antec | EA-650 Platinum | 650W/80PLUS PLATINUM
-OS | Microsoft | Windows 11 Insider Preview | &nbsp;
 
 ### WinScoreShare
 - [Core i9(Skylake-X)環境](http://soundengine.jp/software/winscoreshare/share.php?id=14078&amp;lang=ja) (2018/6/17現在, Win10でゲーム用グラフィックの測定は不可)
