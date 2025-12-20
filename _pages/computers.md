@@ -1,7 +1,7 @@
 ---
 layout: single
 title: コンピュータ
-date: 2025-05-24 00:00:00.000000000 +09:00
+date: 2025-12-20 00:00:00.000000000 +09:00
 type: page
 permalink: "/computers/"
 author_profile: true
@@ -19,7 +19,7 @@ Motherboad | ASUS | [ROG STRIX Z690-F GAMING WIFI](https://rog.asus.com/jp/mothe
 Memory | Corsair | CMK64GX5M2B5600C40 | DDR5-5600/32GB x2/Micron
 Video | ASUS | [TUF-RTX5080-O16G-GAMING](https://www.asus.com/jp/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5080-o16g-gaming/) | RTX 5080/16GB
 SSD | Western Digital | WDS100T1X0E-00AFY0 | SN850/1TB/NVMe Gen4x4
-SSD | Intel | SSDPEKNW010T9X1 | 665p/1TB x2/NVMe Gen3x4
+SSD | SanDisk | WDS200T4X0E-00CJA0 | SN7100/2TB/NVMe Gen4x4
 Chassis | Fractal Design | [Define 7 Dark Tempered Glass](https://www.fractal-design.com/ja/products/cases/define/define-7-dark-tempered-glass/black/) | E-ATX/ATX
 Monitor | DELL | U4021QW | 39.7in./5120x2160/60hz
 USB-DAC | TOPPING | DX3 Pro+ | ES9038Q2M/768kHz/32bit/DSD512
@@ -30,6 +30,19 @@ Keyboad | ダイアテック | Majestouch Xacro M10SP 76JP | 静音赤軸/左右
 Mouse | Logicool | G502 X LIGHTSPEED | &nbsp;
 Other | Elgato | [Stream Deck Mk.2](https://www.elgato.com/ja/stream-deck-mk2) | &nbsp;
 OS | Microsoft | Windows 11 Pro | &nbsp;
+
+### サーバー
+
+[TOPTON Solid Firewall Mini PC](https://ja.aliexpress.com/item/1005008428958849.html)
+
+Parts | Manufacturer | Products | Note
+---|---|---|---
+CPU | Intel | Core i5-13420H | Raptor Lake-H/2.1GHz/8C/12T
+Memory | Crucial | CT16G56C46S5.C8D | DDR5-5600/16GB x2/Micron
+SSD | Sandisk | Extreme NVMe SSD | 1TB/DRAM-less/NVMe Gen4x4
+NIC | Intel | I226-V | 2.5GbE x4
+NIC | Intel | 82599ES | 10Gb SFP+ x2
+OS | Proxmox | Proxmox VE 9 | &nbsp;
 
 ### WinScoreShare
 - [Core i9(Skylake-X)環境](http://soundengine.jp/software/winscoreshare/share.php?id=14078&amp;lang=ja) (2018/6/17現在, Win10でゲーム用グラフィックの測定は不可)
